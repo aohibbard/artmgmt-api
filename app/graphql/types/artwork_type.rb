@@ -11,5 +11,9 @@ module Types
     field :exhibition_id, Integer, null: true
     field :created_at, GraphQL::Types::ISO8601DateTime, null: false
     field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
+    # add relationships
+    field :exhibitions, [Types::ExhibitionType], null: false
+    field :users, [Types::UserType], null: false
+    field :artists, [Types::ArtistType], null: false
   end
 end

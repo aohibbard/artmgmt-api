@@ -7,5 +7,7 @@ module Types
     field :date_of_birth, GraphQL::Types::ISO8601Date, null: true
     field :created_at, GraphQL::Types::ISO8601DateTime, null: false
     field :updated_at, GraphQL::Types::ISO8601DateTime, null: false
+    # add relationships
+    field :artworks, [Types::ArtworkType], null: false
   end
 end

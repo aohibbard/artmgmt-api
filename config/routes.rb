@@ -9,11 +9,3 @@ Rails.application.routes.draw do
   end
   post "/graphql", to: "graphql#execute"
 end
-
-# # above commented out, trying something else per https://medium.com/@DrawandCode/building-a-graphql-api-in-rails-part-start-coding-8b1de6d75041
-# Rails.application.routes.draw do
-#   # ...
-#   mount GraphiQL::Rails::Engine, at: "/graphiql", graphql_path: "/graphql"
-#   # ...
-# end
-

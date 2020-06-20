@@ -18,6 +18,7 @@
 #     Exhibition.create(title: "An Exhibition of Nothing", location: Faker::Address.city, host: "Museum of Modern Art", start_date: Faker::Date.in_date_period(year: 1999, month: 2), end_date: Faker::Date.in_date_period(year: 1999, month: 6))
 # end
 
-80.times do 
-    Artwork.create(title: "Untitled", year: Random.new.rand(1980..2020), medium: "oil on canvas", notes: "Fragile", location: "Museum of Modern Art, Zagreb", artist_id: Random.new.rand(1..20), exhibition_id: Random.new.rand(1..10))
+30.times do 
+    Artwork.create(title: "Untitled", year: Random.new.rand(1980..2020), medium: "oil on canvas", notes: "Fragile", location: "Museum of Modern Art, Zagreb", artist_id: Random.new.rand(1..20), exhibition_id: Random.new.rand(1..10), user_id: Random.new.rand(1..12))
 end
+
