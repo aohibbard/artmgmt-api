@@ -6,6 +6,8 @@ ruby '2.6.3'
 gem 'faker'
 gem 'pry'
 gem 'graphql'
+gem 'clearance'
+gem 'email_validator'
 
 # gem clearance or devise for admin capabilities?
 
