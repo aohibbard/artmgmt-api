@@ -12,3 +12,5 @@ class CreateExhibitions < ActiveRecord::Migration[6.0]
     end
   end
 end
+
+# should add an image bank

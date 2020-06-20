@@ -14,3 +14,6 @@ class CreateArtworks < ActiveRecord::Migration[6.0]
     end
   end
 end
+
+# ABOUT IMAGES https://www.postgresql.org/docs/9.3/dblink.html
+# https://stackoverflow.com/questions/54500/storing-images-in-postgresql
