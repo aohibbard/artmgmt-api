@@ -6,6 +6,7 @@ module Types
     field :artists, [Types::ArtistType], null: false
     field :artworks, [Types::ArtworkType], null: false
     field :exhibitions, [Types::ExhibitionType], null: false
+    # customize
 
     # USER
     def user 
